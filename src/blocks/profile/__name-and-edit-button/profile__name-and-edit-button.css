@@ -1,0 +1,22 @@
+.profile__name-and-edit-button {
+    width: 100%;
+    max-width: 585px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-self: center;
+}
+
+@media screen and (max-width: 680px) {
+    .profile__name-and-edit-button {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 570px) {
+    .profile__name-and-edit-button {
+        padding-left: 21px;
+        box-sizing: border-box;
+    }
+}

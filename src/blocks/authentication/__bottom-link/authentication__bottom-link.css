@@ -1,0 +1,15 @@
+.authentication__bottom-link {
+    color: white;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.authentication__bottom-link:hover {
+    opacity: .6;
+    cursor: pointer;
+}

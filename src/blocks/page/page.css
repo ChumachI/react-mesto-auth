@@ -1,0 +1,12 @@
+.page {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Inter', "Arial ", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*opacity: 0;*/
+    transition: opacity .5s linear;
+}

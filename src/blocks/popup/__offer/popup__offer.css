@@ -1,0 +1,14 @@
+.popup__offer {
+    margin: 0;
+    margin-bottom: 38px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+@media screen and (max-width: 438px) {
+    .popup__offer {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

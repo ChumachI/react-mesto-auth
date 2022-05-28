@@ -1,0 +1,6 @@
+.place__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px auto 20px;
+    align-items: center;
+}

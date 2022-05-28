@@ -1,0 +1,17 @@
+.authentication__form-field {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 27px;
+    padding: 0;
+    color: white;
+    margin: 0;
+}
+
+.authentication__form-field:focus {
+    outline: 0;
+}

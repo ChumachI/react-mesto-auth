@@ -1,0 +1,6 @@
+.popup__info-image {
+    justify-self: center;
+    align-self: center;
+    margin: 24px auto 32px auto;
+    width: 120px;
+}

@@ -1,0 +1,18 @@
+.content {
+    width: 880px;
+    margin: 0 auto;
+    border-top: 1px solid rgba(33%, 33%, 33%, 0.7);
+}
+
+@media screen and (max-width: 918px) {
+    .content {
+        width: calc(100% - 38px);
+        margin: 0 19px;
+    }
+}
+
+@media screen and (max-width: 918px) {
+    .content {
+        border-top: none;
+    }
+}
