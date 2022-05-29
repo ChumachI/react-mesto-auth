@@ -7,9 +7,7 @@ import AddPlacePopup from "./AddPlacePopup.js";
 import EditAvatarPopup from "./EditAvatarPopup.js";
 
 function HomePage(props) {
-  function handleExit() {
-    localStorage.removeItem("jwt");
-  }
+
 
   return (
     <>
@@ -17,7 +15,7 @@ function HomePage(props) {
         buttonName="Выйти"
         path="/sign-in"
         isloggedIn={props.loggedIn}
-        onExitClick={handleExit}
+        onExitClick={props.handleExit}
         email={props.email}
       />
 
