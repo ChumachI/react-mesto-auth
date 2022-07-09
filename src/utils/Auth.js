@@ -1,6 +1,6 @@
 class Auth {
   constructor() {
-    this._commonUrlPart = "https://auth.nomoreparties.co";
+    this._commonUrlPart = "http://api.mesto.ilya.chumak.nomoredomains.xyz";
   }
 
   _checkResult(result) {
